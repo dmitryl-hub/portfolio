@@ -1,12 +1,5 @@
 @import "/src/styles/extend.scss";
 
-div.transitionable-wrapper {
-    min-height: calc(100vh - calc($default-card-spacing*5));
-    @include media-breakpoint-down($max-breakpoint-for-tabbed-interface) {
-        min-height: 70vh;
-    }
-}
-
 div.transitionable-item {
     display: flex;
 }
