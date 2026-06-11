@@ -1,0 +1,35 @@
+{
+    "name": "Dmitry Larionov",
+
+    "profilePictureUrl": "images/pictures/profile-picture.jpg",
+    "resumePdfUrl": "documents/CV.pdf",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message",
+
+    "locales": {
+        "en": {
+            "localized_name": "Dmitry Larionov",
+            "localized_name_stylized": " [[Dmitry {{Larionov}}]]",
+            "status_message": "Available for hire!",
+            "roles": [
+                "AI Engineer",
+                "DevOps Engineer",
+                "Solutions Architect",
+                "Research & Development"
+            ]
+        },
+        "ru": {
+            "localized_name": "Дмитрий Ларионов",
+            "localized_name_stylized": " [[Дмитрий {{Ларионов}}]]",
+            "status_message": "Открыт к предложениям!",
+            "roles": [
+                "AI-инженер",
+                "DevOps-инженер",
+                "Архитектор решений",
+                "Исследования & Разработки"
+            ]
+        }
+    }
+}

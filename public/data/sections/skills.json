@@ -1,0 +1,408 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long": "My {{Skill Set}}"
+            },
+            "ru": {
+                "title_short": "Навыки",
+                "title_short_nav": "Навыки",
+                "title_long": "{{Навыки}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleStack",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_os_networks": "OS & Networks",
+                    "category_virtualization": "Virtualization",
+                    "category_databases": "Databases",
+                    "category_security": "Security",
+                    "category_devops": "Automation & DevOps",
+                    "category_containers": "Containers",
+                    "category_monitoring": "Monitoring & Analytics",
+                    "category_languages": "Languages",
+                    "category_ai_llm": "AI & LLM"
+                },
+                "ru": {
+                    "category_all": "Все",
+                    "category_os_networks": "ОС и Сети",
+                    "category_virtualization": "Виртуализация",
+                    "category_databases": "Базы данных",
+                    "category_security": "Безопасность",
+                    "category_devops": "Автоматизация и DevOps",
+                    "category_containers": "Контейнеризация",
+                    "category_monitoring": "Мониторинг и Аналитика",
+                    "category_languages": "Языки",
+                    "category_ai_llm": "AI и LLM"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_os_networks", "category_virtualization", "category_databases", "category_security", "category_devops", "category_containers", "category_monitoring", "category_languages", "category_ai_llm"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_os_networks",
+                    "img": null,
+                    "faIcon": "fa-brands fa-windows",
+                    "faIconColors": {"bg": "#FFFFFF", "fill": "#087CD7"},
+                    "locales": {
+                        "en": {"title": "Windows", "text": "Windows Server, Active Directory"},
+                        "ru": {"title": "Windows", "text": "Windows Server, Active Directory"}
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_os_networks",
+                    "img": null,
+                    "faIcon": "fa-brands fa-linux",
+                    "faIconColors": {"bg": "#087CD7", "fill": "#FFFFFF"},
+                    "locales": {
+                        "en": {"title": "Linux", "text": "Ubuntu, Astra, administration, scripting"},
+                        "ru": {"title": "Linux", "text": "Ubuntu, Astra, администрирование, скриптинг"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_os_networks",
+                    "img": "images/pictures/cisco-logo.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": null, "fill": null},
+                    "locales": {
+                        "en": {"title": "Cisco", "text": "Routing, switching, VLAN, VPN"},
+                        "ru": {"title": "Cisco", "text": "Маршрутизация, коммутация, VLAN, VPN"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_os_networks",
+                    "img": "images/pictures/keenetic.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": null, "fill": null},
+                    "locales": {
+                        "en": {"title": "Keenetic", "text": "Routing, switching, VPN"},
+                        "ru": {"title": "Keenetic", "text": "Маршрутизация, коммутация, VPN"}
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_virtualization",
+                    "img": null,
+                    "faIcon": "fa-brands fa-windows",
+                    "faIconColors": {"bg": "#FFFFFF", "fill": "#087CD7"},
+                    "locales": {
+                        "en": {"title": "Hyper-V", "text": "VMs, snapshots, fault tolerance"},
+                        "ru": {"title": "Hyper-V", "text": "ВМ, снимки, отказоустойчивость"}
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_virtualization",
+                    "img": "images/pictures/vmware.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": null, "fill": null},
+                    "locales": {
+                        "en": {"title": "VMware", "text": "vSphere, ESXi, virtual infrastructure"},
+                        "ru": {"title": "VMware", "text": "vSphere, ESXi, виртуальная инфраструктура"}
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_virtualization",
+                    "img": "images/pictures/kvm.jpg",
+                    "faIcon": null,
+                    "faIconColors": {"bg": null, "fill": null},
+                    "locales": {
+                        "en": {"title": "KVM", "text": "Hypervisor, VM management, networking"},
+                        "ru": {"title": "KVM", "text": "Гипервизор, управление ВМ, сети"}
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_databases",
+                    "img": null,
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "#4479A1", "fill": "#EEE"},
+                    "locales": {
+                        "en": {"title": "PostgreSQL", "text": "Schema design, optimization, backup"},
+                        "ru": {"title": "PostgreSQL", "text": "Проектирование схем, оптимизация, бэкапы"}
+                    }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_databases",
+                    "img": null,
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {"bg": "#47A248", "fill": "#EEE"},
+                    "locales": {
+                        "en": {"title": "MongoDB", "text": "Document design, indexing, replication"},
+                        "ru": {"title": "MongoDB", "text": "Проектирование документов, индексы, репликация"}
+                    }
+                },
+                {
+                    "id": 10,
+                    "categoryId": "category_security",
+                    "img": "images/pictures/vault.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": null, "fill": null},
+                    "locales": {
+                        "en": {"title": "Vault", "text": "Secrets management, access policies, rotation"},
+                        "ru": {"title": "Vault", "text": "Управление секретами, политики доступа, ротация"}
+                    }
+                },
+                {
+                    "id": 11,
+                    "categoryId": "category_security",
+                    "img": "images/pictures/sonarqube.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": null, "fill": null},
+                    "locales": {
+                        "en": {"title": "SonarQube", "text": "Code quality analysis, vulnerability detection"},
+                        "ru": {"title": "SonarQube", "text": "Анализ качества кода, поиск уязвимостей"}
+                    }
+                },
+                {
+                    "id": 12,
+                    "categoryId": "category_devops",
+                    "img": null,
+                    "faIcon": "fa-brands fa-gitlab",
+                    "faIconColors": {"bg": "#FFFFFF", "fill": "#E24930"},
+                    "locales": {
+                        "en": {"title": "GitLab CI/CD", "text": "CI/CD pipelines, automation"},
+                        "ru": {"title": "GitLab CI/CD", "text": "Конвейеры CI/CD, автоматизация"}
+                    }
+                },
+                {
+                    "id": 13,
+                    "categoryId": "category_devops",
+                    "img": null,
+                    "faIcon": "fa-brands fa-jenkins",
+                    "faIconColors": {"bg": "#FFFFFF", "fill": "#1F1F1F"},
+                    "locales": {
+                        "en": {"title": "Jenkins", "text": "Pipeline automation, workflow management"},
+                        "ru": {"title": "Jenkins", "text": "Автоматизация пайплайнов, управление workflow"}
+                    }
+                },
+                {
+                    "id": 14,
+                    "categoryId": "category_devops",
+                    "img": "images/pictures/nexus.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": "#FFFFFF", "fill": null},
+                    "locales": {
+                        "en": {"title": "Nexus", "text": "Artifact and dependency management"},
+                        "ru": {"title": "Nexus", "text": "Управление артефактами и зависимостями"}
+                    }
+                },
+                {
+                    "id": 15,
+                    "categoryId": "category_devops",
+                    "img": "images/pictures/terraform.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": null, "fill": null},
+                    "locales": {
+                        "en": {"title": "Terraform", "text": "Infrastructure as Code, resource management"},
+                        "ru": {"title": "Terraform", "text": "Инфраструктура как код, управление ресурсами"}
+                    }
+                },
+                {
+                    "id": 16,
+                    "categoryId": "category_devops",
+                    "img": "images/pictures/ansible.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": null, "fill": null},
+                    "locales": {
+                        "en": {"title": "Ansible", "text": "Configuration management, playbooks"},
+                        "ru": {"title": "Ansible", "text": "Управление конфигурацией, плейбуки"}
+                    }
+                },
+                {
+                    "id": 17,
+                    "categoryId": "category_devops",
+                    "img": "images/pictures/argo.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": "#FFFFFF", "fill": null},
+                    "locales": {
+                        "en": {"title": "ArgoCD", "text": "GitOps, Kubernetes application management"},
+                        "ru": {"title": "ArgoCD", "text": "GitOps, управление приложениями в Kubernetes"}
+                    }
+                },
+                {
+                    "id": 18,
+                    "categoryId": "category_devops",
+                    "img": "images/pictures/helm.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": "#FFFFFF", "fill": null},
+                    "locales": {
+                        "en": {"title": "Helm", "text": "Kubernetes package management, charts"},
+                        "ru": {"title": "Helm", "text": "Управление пакетами Kubernetes, чарты"}
+                    }
+                },
+                {
+                    "id": 19,
+                    "categoryId": "category_containers",
+                    "img": null,
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {"bg": "#FFFFFF", "fill": "#087CD7"},
+                    "locales": {
+                        "en": {"title": "Docker", "text": "Containers, Dockerfiles, Compose"},
+                        "ru": {"title": "Docker", "text": "Контейнеры, Dockerfiles, Compose"}
+                    }
+                },
+                {
+                    "id": 20,
+                    "categoryId": "category_containers",
+                    "img": "images/pictures/k8s.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": "#FFFFFF", "fill": null},
+                    "locales": {
+                        "en": {"title": "Kubernetes", "text": "Cluster management, Deployment, Service, Ingress"},
+                        "ru": {"title": "Kubernetes", "text": "Управление кластером, Deployment, Service, Ingress"}
+                    }
+                },
+                {
+                    "id": 21,
+                    "categoryId": "category_monitoring",
+                    "img": "images/pictures/zabbix.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": null, "fill": null},
+                    "locales": {
+                        "en": {"title": "Zabbix", "text": "Infrastructure monitoring, alerting"},
+                        "ru": {"title": "Zabbix", "text": "Мониторинг инфраструктуры, оповещения"}
+                    }
+                },
+                {
+                    "id": 22,
+                    "categoryId": "category_monitoring",
+                    "img": "images/pictures/grafana.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": null, "fill": null},
+                    "locales": {
+                        "en": {"title": "Grafana", "text": "Dashboards, metric visualization"},
+                        "ru": {"title": "Grafana", "text": "Дашборды, визуализация метрик"}
+                    }
+                },
+                {
+                    "id": 23,
+                    "categoryId": "category_monitoring",
+                    "img": "images/pictures/prometheus.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": null, "fill": null},
+                    "locales": {
+                        "en": {"title": "Prometheus", "text": "Metrics collection, alert rules"},
+                        "ru": {"title": "Prometheus", "text": "Сбор метрик, правила оповещений"}
+                    }
+                },
+                {
+                    "id": 24,
+                    "categoryId": "category_monitoring",
+                    "img": null,
+                    "faIcon": "fa-solid fa-fire",
+                    "faIconColors": {"bg": "#FFFFFF", "fill": "#FF7108"},
+                    "locales": {
+                        "en": {"title": "Alertmanager", "text": "Alert management, notifications"},
+                        "ru": {"title": "Alertmanager", "text": "Управление оповещениями, уведомления"}
+                    }
+                },
+                {
+                    "id": 25,
+                    "categoryId": "category_monitoring",
+                    "img": "images/pictures/loki.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": "#FFFFFF", "fill": null},
+                    "locales": {
+                        "en": {"title": "Loki", "text": "Log aggregation, indexing, search"},
+                        "ru": {"title": "Loki", "text": "Агрегация логов, индексация, поиск"}
+                    }
+                },
+                {
+                    "id": 26,
+                    "categoryId": "category_languages",
+                    "img": "images/flags/ru.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": null, "fill": null},
+                    "locales": {
+                        "en": {"title": "Russian", "text": "Native speaker"},
+                        "ru": {"title": "Русский", "text": "Родной язык"}
+                    }
+                },
+                {
+                    "id": 27,
+                    "categoryId": "category_languages",
+                    "img": "images/flags/en-uk.png",
+                    "faIcon": null,
+                    "faIconColors": {"bg": null, "fill": null},
+                    "locales": {
+                        "en": {"title": "English", "text": "B2 — Upper Intermediate"},
+                        "ru": {"title": "Английский", "text": "B2 — Средне-продвинутый"}
+                    }
+                },
+                {
+                    "id": 28,
+                    "categoryId": "category_ai_llm",
+                    "img": null,
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {"bg": "#FFFFFF", "fill": "#000000"},
+                    "locales": {
+                        "en": {"title": "LLM / GenAI", "text": "Prompt engineering, RAG, LLM orchestration"},
+                        "ru": {"title": "LLM / GenAI", "text": "Промпт-инжиниринг, RAG, оркестрация LLM"}
+                    }
+                },
+                {
+                    "id": 29,
+                    "categoryId": "category_ai_llm",
+                    "img": null,
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {"bg": "#FFFFFF", "fill": "#000000"},
+                    "locales": {
+                        "en": {"title": "Machine Learning", "text": "Model training, fine-tuning, evaluation"},
+                        "ru": {"title": "Машинное обучение", "text": "Обучение моделей, дообучение, оценка"}
+                    }
+                },
+                {
+                    "id": 30,
+                    "categoryId": "category_ai_llm",
+                    "img": null,
+                    "faIcon": "fa-solid fa-database",
+                    "faIconColors": {"bg": "#4479A1", "fill": "#EEE"},
+                    "locales": {
+                        "en": {"title": "Vector Databases", "text": "pgvector, embeddings, similarity search"},
+                        "ru": {"title": "Векторные БД", "text": "pgvector, эмбеддинги, поиск по сходству"}
+                    }
+                },
+                {
+                    "id": 31,
+                    "categoryId": "category_ai_llm",
+                    "img": null,
+                    "faIcon": "fa-solid fa-link",
+                    "faIconColors": {"bg": "#FFFFFF", "fill": "#000000"},
+                    "locales": {
+                        "en": {"title": "LangChain / LlamaIndex", "text": "Frameworks for LLM-powered applications"},
+                        "ru": {"title": "LangChain / LlamaIndex", "text": "Фреймворки для LLM-приложений"}
+                    }
+                },
+                {
+                    "id": 32,
+                    "categoryId": "category_ai_llm",
+                    "img": null,
+                    "faIcon": "fa-solid fa-gears",
+                    "faIconColors": {"bg": "#FFFFFF", "fill": "#000000"},
+                    "locales": {
+                        "en": {"title": "MLOps", "text": "Model deployment, monitoring, versioning"},
+                        "ru": {"title": "MLOps", "text": "Развёртывание моделей, мониторинг, версионирование"}
+                    }
+                }
+            ]
+        }
+    ]
+}

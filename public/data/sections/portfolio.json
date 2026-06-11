@@ -1,0 +1,283 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long": "My {{Portfolio}}"
+            },
+            "ru": {
+                "title_short": "Портфолио",
+                "title_short_nav": "Портфолио",
+                "title_long": "{{Портфолио}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "2",
+                            "text": "Fault-tolerant clusters"
+                        },
+                        "ru": {
+                            "title": "2",
+                            "text": "Отказоустойчивых кластеров"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-rocket",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "8+",
+                            "text": "Projects in production"
+                        },
+                        "ru": {
+                            "title": "8+",
+                            "text": "Проектов в продакшене"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-book",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "8+",
+                            "text": "RID (research & patents)"
+                        },
+                        "ru": {
+                            "title": "8+",
+                            "text": "РИД (публикации и патенты)"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "1,000,000+",
+                            "text": "Lines of code"
+                        },
+                        "ru": {
+                            "title": "1,000,000+",
+                            "text": "Строк кода"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_device": "Device",
+                    "category_platform": "Platform",
+                    "category_infrastructure": "Infrastructure",
+                    "category_education": "Education"
+                },
+                "ru": {
+                    "category_all": "Все",
+                    "category_device": "Устройство",
+                    "category_platform": "Платформа",
+                    "category_infrastructure": "Инфраструктура",
+                    "category_education": "Образование"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_device", "category_platform", "category_infrastructure", "category_education"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_device",
+                    "img": "",
+                    "faIcon": "fa-solid fa-syringe",
+                    "faIconColors": {"bg": "#2E7D32", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "BioGun",
+                            "text": "A handheld <b>bioprinter</b> prototype for <b>in-situ tissue engineering</b>, enabling direct deposition of cell-laden hydrogels onto damaged tissue surfaces.",
+                            "tags": ["Bioprinting", "Tissue Engineering", "Hydrogel"]
+                        },
+                        "ru": {
+                            "title": "BioGun",
+                            "text": "Прототип ручного <b>биопринтера</b> для <b>in-situ тканевой инженерии</b>, позволяющий наносить клеточные гидрогели на поверхность повреждённых тканей.",
+                            "tags": ["Биопринтинг", "Тканевая инженерия", "Гидрогель"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_device",
+                    "img": "",
+                    "faIcon": "fa-solid fa-hand",
+                    "faIconColors": {"bg": "#1565C0", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Rehab Glove",
+                            "text": "A prototype glove for <b>post-stroke rehabilitation</b> of patients with spasticity, using soft actuators to assist hand motor recovery.",
+                            "tags": ["Rehabilitation", "Soft Robotics", "Biomedical"]
+                        },
+                        "ru": {
+                            "title": "Реабилитационная перчатка",
+                            "text": "Прототип перчатки для <b>постинсультной реабилитации</b> пациентов со спастикой, использующей мягкие актуаторы для восстановления моторики руки.",
+                            "tags": ["Реабилитация", "Мягкая робототехника", "Биомедицина"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_platform",
+                    "img": "",
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {"bg": "#6A1B9A", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "ShvabeAI",
+                            "text": "An <b>AI platform</b> developed from architecture to deployment, providing <b>LLM-powered solutions</b> for industrial and enterprise tasks.",
+                            "tags": ["AI", "LLM", "Platform"]
+                        },
+                        "ru": {
+                            "title": "ShvabeAI",
+                            "text": "<b>AI-платформа</b>, разработанная от архитектуры до деплоя, предоставляющая решения на базе <b>LLM</b> для промышленных и корпоративных задач.",
+                            "tags": ["AI", "LLM", "Платформа"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_infrastructure",
+                    "img": "",
+                    "faIcon": "fa-solid fa-server",
+                    "faIconColors": {"bg": "#E65100", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Scientific Compute Cluster",
+                            "text": "A <b>fault-tolerant</b> scientific computing cluster designed and deployed for <b>high-performance computing</b>, supporting two industrial labs.",
+                            "tags": ["Cluster", "HPC", "Infrastructure"]
+                        },
+                        "ru": {
+                            "title": "Научный вычислительный кластер",
+                            "text": "<b>Отказоустойчивый</b> кластер для научных вычислений, спроектированный и развёрнутый для <b>высокопроизводительных расчётов</b>, обеспечивающий работу двух промышленных лабораторий.",
+                            "tags": ["Кластер", "HPC", "Инфраструктура"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_education",
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-medical",
+                    "faIconColors": {"bg": "#00838F", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "IT in Healthcare",
+                            "text": "An <b>educational program</b> bridging information technology and healthcare, training specialists in <b>medical informatics</b> and digital health.",
+                            "tags": ["Education", "HealthIT", "Informatics"]
+                        },
+                        "ru": {
+                            "title": "IT в Медицине",
+                            "text": "<b>Образовательное пространство</b> на стыке IT и медицины, готовящее специалистов в области <b>медицинской информатики</b> и цифрового здравоохранения.",
+                            "tags": ["Образование", "Медицинская информатика", "Цифровое здравоохранение"]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_education",
+                    "img": "",
+                    "faIcon": "fa-solid fa-cube",
+                    "faIconColors": {"bg": "#37474F", "fill": "#EEEEEE"},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Additive Technologies in Medicine",
+                            "text": "An <b>educational program</b> focused on additive manufacturing in healthcare — from <b>3D-printed scaffolds</b> and implants to surgical planning models.",
+                            "tags": ["Education", "3D Printing", "Biomedical"]
+                        },
+                        "ru": {
+                            "title": "Аддитивные технологии в медицине",
+                            "text": "<b>Образовательное пространство</b> по аддитивным технологиям в медицине — от <b>3D-печатных скаффолдов</b> и имплантатов до моделей для хирургического планирования.",
+                            "tags": ["Образование", "3D-печать", "Биомедицина"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

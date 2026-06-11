@@ -1,0 +1,249 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long": "I'm {{Dmitry Larionov!}}"
+            },
+            "ru": {
+                "title_short": "Привет!",
+                "title_short_nav": "Обо мне",
+                "title_long": "Я {{Дмитрий Ларионов!}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Moscow – Russia",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "larionov2506@yandex.ru",
+                    "link": {"href": "mailto:larionov2506@yandex.ru", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@DmiLar",
+                    "link": {"href": "https://t.me/DmiLar", "tooltipString": "open_website"},
+                    "faIcon": "fa-brands fa-telegram"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me"},
+                "ru": {"title": "{{Немного}} обо мне"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/svg/logo.svg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>With a background as an {{engineer-physicist}}, I began my career in [[scientific research]] before transitioning into the world of software and infrastructure. Today, I work as a [[Solution Architect]] and {{AI Engineer}}, bridging the gap between complex systems, cloud architecture, and intelligent automation.</p><p>Scientific mindset drives me to approach every challenge with [[analytical rigor and curiosity]] — whether I'm designing resilient infrastructure, building AI-powered solutions, or optimizing end-to-end delivery pipelines.</p><p>I'm passionate about [[continuous learning]] and believe the best solutions come from understanding the full picture — from physics to pixels, from research to release.</p>"
+                        },
+                        "ru": {
+                            "text": "<p>По образованию я {{инженер-физик}}. Начинал свой путь в [[научных исследованиях]], а затем перешёл в мир разработки и инфраструктуры. Сегодня я работаю как [[Solution Architect]] и {{AI-инженер}}, соединяя сложные системы, облачные архитектуры и интеллектуальную автоматизацию.</p><p>Научный подход помогает мне решать задачи с [[аналитической строгостью и любопытством]] — будь то проектирование отказоустойчивой инфраструктуры, создание AI-решений или оптимизация пайплайнов доставки.</p><p>Я увлечён [[постоянным обучением]] и уверен, что лучшие решения рождаются из понимания полной картины — от физики до пикселей, от исследований до релиза.</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-flask",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {"title": "8+", "text": "Years in R&D"},
+                        "ru": {"title": "8+", "text": "Лет в R&D"}
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-microscope",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {"title": "7+", "text": "Research Publications"},
+                        "ru": {"title": "7+", "text": "Научных публикаций"}
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-users-gear",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {"title": "300+", "text": "GenAI-Powered Users"},
+                        "ru": {"title": "300+", "text": "Пользователей GenAI-системы"}
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-microchip",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {"title": "6+", "text": "Research Domains"},
+                        "ru": {"title": "6+", "text": "Научных доменов"}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"},
+                "ru": {"title": "Личные {{интересы}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-headphones",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Music}}",
+                            "text": "Instruments, electronics, and everything in between."
+                        },
+                        "ru": {
+                            "title": "{{Музыка}}",
+                            "text": "Инструменты, электроника и всё, что между ними."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-crosshairs",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Airsoft}}",
+                            "text": "The most expensive way to get hit by plastic."
+                        },
+                        "ru": {
+                            "title": "{{Страйкбол}}",
+                            "text": "Самый дорогой способ получить пластиком по лицу."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-mountain",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Hiking}}",
+                            "text": "Camping and mountain trails on weekends."
+                        },
+                        "ru": {
+                            "title": "{{Походы}}",
+                            "text": "Кемпинг и горные маршруты по выходным."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-cube",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{3D Printing}}",
+                            "text": "Turning digital models into real-world objects."
+                        },
+                        "ru": {
+                            "title": "{{3D-печать}}",
+                            "text": "Превращаю цифровые модели в реальные объекты."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Gaming}}",
+                            "text": "Exploring open-world and strategy games."
+                        },
+                        "ru": {
+                            "title": "{{Игры}}",
+                            "text": "Исследую open-world и стратегии."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-dice",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{Board Games}}",
+                            "text": "Strategy and party games with friends."
+                        },
+                        "ru": {
+                            "title": "{{Настолки}}",
+                            "text": "Стратегии и пати-геймы в кругу друзей."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

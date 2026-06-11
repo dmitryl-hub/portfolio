@@ -1,0 +1,222 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Work Experience",
+                "title_short_nav": "Experience",
+                "title_long": "{{Work}} Experience"
+            },
+            "ru": {
+                "title_short": "Опыт работы",
+                "title_short_nav": "Опыт",
+                "title_long": "{{Опыт}} работы"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/place-6.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2020, "month": 7},
+                    "dateEnd": {"year": 2022, "month": 2},
+                    "locales": {
+                        "en": {
+                            "title": "{{Laboratory}} Assistant",
+                            "province": "Moscow",
+                            "country": "Russia",
+                            "institution": "IBMC",
+                            "text": "Developed [[software solutions]] for scientific research, specializing in real-time data visualization and processing for advanced microscopy and measurement equipment.",
+                            "list": [
+                                "Built software for visualization and processing of atomic force microscope data (Bruker, NT-MDT)",
+                                "Developed real-time data acquisition systems for Keithley picoammeters",
+                                "Conducted research, authored methodology materials and technical documentation"
+                            ],
+                            "tags": ["C++", "Python", "Data Visualization", "Lab Equipment"]
+                        },
+                        "ru": {
+                            "title": "{{Лаборант}}",
+                            "province": "Москва",
+                            "country": "Россия",
+                            "institution": "ИБМХ",
+                            "text": "Разрабатывал [[программные решения]] для научных исследований, специализируясь на визуализации и обработке данных в реальном времени для микроскопии и измерительного оборудования.",
+                            "list": [
+                                "Создание ПО для визуализации данных атомно-силовых микроскопов (Bruker, NT-MDT)",
+                                "Разработка систем сбора данных реального времени для пикоамперметров Keithley",
+                                "Выполнение НИР, написание методических материалов и технической документации"
+                            ],
+                            "tags": ["C++", "Python", "Визуализация данных", "Лаб. оборудование"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/place-6.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2022, "month": 2},
+                    "dateEnd": {"year": 2022, "month": 6},
+                    "locales": {
+                        "en": {
+                            "title": "Junior {{Researcher}}",
+                            "province": "Moscow",
+                            "country": "Russia",
+                            "institution": "IBMC",
+                            "text": "Focused on the [[development of precision measurement systems]] for biomedical diagnostics applications.",
+                            "list": [
+                                "Developed and debugged a prototype low-current measuring system for low-molecular diagnostics",
+                                "Conducted research, authored scientific publications and technical documentation"
+                            ],
+                            "tags": ["Embedded Systems", "Precision Measurement", "Biomedical"]
+                        },
+                        "ru": {
+                            "title": "Младший {{научный сотрудник}}",
+                            "province": "Москва",
+                            "country": "Россия",
+                            "institution": "ИБМХ",
+                            "text": "Сосредоточился на [[разработке прецизионных измерительных систем]] для задач биомедицинской диагностики.",
+                            "list": [
+                                "Разработка и отладка прототипа слаботочной измерительной системы для низкомолекулярной диагностики",
+                                "Выполнение НИР, написание научных публикаций и технической документации"
+                            ],
+                            "tags": ["Встраиваемые системы", "Точные измерения", "Биомедицина"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/place-7.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2022, "month": 6},
+                    "dateEnd": {"year": 2024, "month": 6},
+                    "locales": {
+                        "en": {
+                            "title": "Junior {{Researcher}}",
+                            "province": "Moscow",
+                            "country": "Russia",
+                            "institution": "FMSMU of I.M.Sechenov",
+                            "text": "Led [[multidisciplinary research]] at the intersection of biomedical engineering, additive technologies, and materials science.",
+                            "list": [
+                                "Researched hyperelastic materials using mathematical modeling methods",
+                                "Developed the handheld bioprinter \"BioGun\" prototype",
+                                "Built a prototype glove for post-stroke rehabilitation of spastic patients",
+                                "Supervised two student groups — projects defended at international level",
+                                "Researched additive technologies in dentistry and traumatology (scaffolds, temporary crowns)",
+                                "Developed an electrochemical pH sensor for long-wearing mouthguards",
+                                "Authored scientific publications, patents, and technical documentation"
+                            ],
+                            "tags": ["3D Printing", "Bioprinting", "Mathematical Modeling", "Electrochemistry"]
+                        },
+                        "ru": {
+                            "title": "Младший {{научный сотрудник}}",
+                            "province": "Москва",
+                            "country": "Россия",
+                            "institution": "ПМГМУ имени И.М. Сеченова",
+                            "text": "Руководил [[междисциплинарными исследованиями]] на стыке биомедицинской инженерии, аддитивных технологий и материаловедения.",
+                            "list": [
+                                "Исследование гиперупругих материалов методами математического моделирования",
+                                "Разработка прототипа ручного биопринтера \"BioGun\"",
+                                "Создание прототипа перчатки для постинсультной реабилитации",
+                                "Руководство двумя студенческими группами — проекты защищены на международном уровне",
+                                "Исследования аддитивных технологий в стоматологии и травматологии",
+                                "Разработка электрохимического pH-сенсора для капы длительного ношения",
+                                "Написание научных публикаций, патентов и технической документации"
+                            ],
+                            "tags": ["3D печать", "Биопринтинг", "Мат. моделирование", "Электрохимия"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "images/pictures/place-7.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2024, "month": 6},
+                    "dateEnd": {"year": 2025, "month": 8},
+                    "locales": {
+                        "en": {
+                            "title": "{{Engineer}} — Programmer",
+                            "province": "Moscow",
+                            "country": "Russia",
+                            "institution": "FMSMU of I.M.Sechenov",
+                            "text": "Leading the [[digital transformation]] of the department's IT infrastructure, bridging system administration, network engineering, and DevOps practices.",
+                            "list": [
+                                "Modernized the structured cabling system for 150 users",
+                                "Administered information systems on Windows and Linux (Ubuntu, Astra)",
+                                "Managed network infrastructure (CISCO, MikroTik)",
+                                "Designed and deployed a fault-tolerant scientific computing cluster, forming two industrial labs",
+                                "Organized the technical support service and drafted local information security regulations",
+                                "Introduced cloud infrastructure for departmental SaaS solutions (RITM-1)",
+                                "Implemented DevOps methodology across the development process"
+                            ],
+                            "tags": ["DevOps", "Linux", "Cisco", "Cloud", "Cluster"]
+                        },
+                        "ru": {
+                            "title": "{{Инженер}} — программист",
+                            "province": "Москва",
+                            "country": "Россия",
+                            "institution": "ПМГМУ имени И.М. Сеченова",
+                            "text": "Руковожу [[цифровой трансформацией]] ИТ-инфраструктуры подразделения, объединяя системное администрирование, сетевое инжиниринг и DevOps-практики.",
+                            "list": [
+                                "Модернизация СКС подразделения на 150 пользователей",
+                                "Администрирование информационных систем на Windows и Linux (Ubuntu, Astra)",
+                                "Сетевое администрирование CISCO и MikroTik",
+                                "Разработка и ввод в эксплуатацию отказоустойчивого научного кластера",
+                                "Организация службы технической поддержки и локальные нормативные документы по ИБ",
+                                "Внедрение облачной инфраструктуры для SaaS-решений подразделения (РИТМ-1)",
+                                "Внедрение DevOps-методологии в процесс разработки"
+                            ],
+                            "tags": ["DevOps", "Linux", "Cisco", "Облако", "Кластер"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "images/pictures/place-8.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2025, "month": 8},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{Chief}} Expert",
+                            "province": "Moscow",
+                            "country": "Russia",
+                            "institution": "Rostec",
+                            "text": "Leading infrastructure deployment for ALDPro and developing an AI platform.",
+                            "list": [
+                                "Deploying and managing ALDPro infrastructure",
+                                "Developing an AI platform from architecture to deployment"
+                            ],
+                            "tags": ["ALDPro", "AI", "Infrastructure", "Linux", "DevOps"]
+                        },
+                        "ru": {
+                            "title": "{{Главный}} эксперт",
+                            "province": "Москва",
+                            "country": "Россия",
+                            "institution": "Ростех",
+                            "text": "Руковожу развёртыванием инфраструктуры ALDPro и разработкой AI-платформы.",
+                            "list": [
+                                "Развёртывание и сопровождение инфраструктуры ALDPro",
+                                "Разработка AI-платформы от архитектуры до деплоя"
+                            ],
+                            "tags": ["ALDPro", "AI", "Инфраструктура", "Linux", "DevOps"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

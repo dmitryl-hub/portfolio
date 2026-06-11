@@ -1,0 +1,66 @@
+{
+    "developerSettings": {
+        "debugMode": false,
+        "fakeEmailRequests": false,
+        "stayOnThePreloaderScreen": false,
+        "version": "0.1.0"
+    },
+
+    "preloaderSettings": {
+        "enabled": false,
+        "title": "React <strong>Portfolio</strong>",
+        "subtitle": "by Dmitry Larionov",
+        "logoOffset": {
+            "right": 14,
+            "top": 2,
+            "bottom": 0
+        }
+    },
+
+    "templateSettings": {
+        "animatedCursorEnabled": false,
+        "backgroundStyle": "animated",
+        "defaultLanguageId": "ru",
+        "defaultThemeId": "light",
+        "fullscreenEnabled": true,
+        "showSpinnerOnSectionChange": false,
+        "showSpinnerOnThemeChange": false
+    },
+
+    "supportedLanguages": [
+        {
+            "name": "Русский",
+            "id": "ru",
+            "flagUrl": "images/flags/ru.png"
+        },
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en-uk.png"
+        }
+    ],
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "icon": "fa-solid fa-moon",
+            "dark": true,
+            "locales": {
+                "en": {"name": "Dark Mode"},
+                "ru": {"name": "Тёмная тема"}
+            }
+        },
+        {
+            "id": "light",
+            "icon": "fa-solid fa-sun",
+            "dark": false,
+            "locales": {
+                "en": {"name": "Light Mode"},
+                "ru": {"name": "Светлая тема"}
+            }
+        }
+    ],
+
+
+    "imagesToCache": []
+}
