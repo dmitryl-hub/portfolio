@@ -36,3 +36,15 @@ div.logo-wrapper-size-3 {
     width: var(--size);
     height: var(--size);
 }
+
+div.logo-wrapper-size-4 {
+    --size: 96px;
+    @include media-breakpoint-down(xxl) {--size: 88px;}
+    @include media-breakpoint-down(xl) {--size: 80px;}
+    @include media-breakpoint-down(lg) {--size: 72px;}
+    @include media-breakpoint-down(md) {--size: 64px;}
+    @include media-breakpoint-down(sm) {--size: 56px;}
+
+    width: var(--size);
+    height: var(--size);
+}

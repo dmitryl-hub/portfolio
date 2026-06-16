@@ -1,6 +1,5 @@
 import "./Preloader.scss"
 import React, {useEffect, useState} from 'react'
-import PacMan from "/src/components/widgets/PacMan.jsx"
 import Logo from "/src/components/widgets/Logo.jsx"
 import {useScheduler} from "/src/hooks/scheduler.js"
 import {useUtils} from "/src/hooks/utils.js"
@@ -158,8 +157,6 @@ function PreloaderWindow({ title, subtitle, logoOffset, setDidLoadAllImages, sho
 
     const [didLoadLogo, setDidLoadLogo] = useState(false)
 
-    const [isPacManHidden, setIsPacManHidden] = useState(true)
-
     const hiddenClass = isHiding ?
         `preloader-window-hidden` : ``
 
@@ -168,24 +165,9 @@ function PreloaderWindow({ title, subtitle, logoOffset, setDidLoadAllImages, sho
             setDidLoadAllImages(true)
     }, [didLoadLogo])
 
-    useEffect(() => {
-        if(!showElements) {
-            setIsPacManHidden(true)
-            return
-        }
-
-        scheduler.clearAllWithTag("preloader-pacman")
-        scheduler.schedule(() => {
-            setIsPacManHidden(false)
-        }, 100, "preloader-pacman")
-    }, [showElements])
-
     return (
         <div className={`preloader-window ${hiddenClass}`}>
             <div className={`preloader-window-content`}>
-                <PacMan variant={PacMan.ColorVariants.LOADER}
-                        hidden={isPacManHidden}/>
-
                 <PreloaderWindowInfo title={title}
                                      subtitle={subtitle}
                                      logoOffset={logoOffset}
@@ -201,21 +183,20 @@ function PreloaderWindowInfo({ title, subtitle, logoOffset, hidden, setDidLoadLo
     const scheduler = useScheduler()
 
     const [isHidden, setIsHidden] = useState(true)
+    const [isPulseActive, setIsPulseActive] = useState(false)
 
     const hiddenClass = isHidden ?
         `preloader-window-info-hidden` : ``
 
+    const pulseClass = isPulseActive ?
+        `preloader-window-logo-pulse` : ``
+
     const [offsetTop, setOffsetTop] = useState(0)
     const [offsetRight, setOffsetRight] = useState(0)
-    const [offsetBottom, setOffsetBottom] = useState(0)
 
     const logoStyle = {
         marginTop: `${offsetTop}px`,
         marginRight: `${offsetRight}px`,
-    }
-
-    const developerStyle = {
-        marginTop: `${offsetBottom}px`
     }
 
     useEffect(() => {
@@ -229,13 +210,18 @@ function PreloaderWindowInfo({ title, subtitle, logoOffset, hidden, setDidLoadLo
     useEffect(() => {
         if(hidden) {
             setIsHidden(true)
+            setIsPulseActive(false)
             return
         }
 
         scheduler.clearAllWithTag("preloader-window-info")
+        scheduler.clearAllWithTag("preloader-pulse")
         scheduler.schedule(() => {
             setIsHidden(false)
         }, 600, "preloader-window-info")
+        scheduler.schedule(() => {
+            setIsPulseActive(true)
+        }, 800, "preloader-pulse")
     }, [hidden])
 
     const _onResize = () => {
@@ -254,24 +240,22 @@ function PreloaderWindowInfo({ title, subtitle, logoOffset, hidden, setDidLoadLo
 
         setOffsetTop(logoOffset.top * scale)
         setOffsetRight(logoOffset.right * scale)
-        setOffsetBottom(logoOffset.bottom)
     }
 
     return (
         <div className={`preloader-window-info ${hiddenClass}`}>
             <div className={`preloader-window-info-title`}>
-                <Logo size={3}
-                      className={`preloader-window-logo`}
+                <Logo size={4}
+                      className={`preloader-window-logo ${pulseClass}`}
                       setDidLoad={setDidLoadLogo}
                       style={logoStyle}/>
 
-                <h5 className={`lead-2 mb-0`}
-                    dangerouslySetInnerHTML={{__html: title}}/>
-            </div>
-
-            <div className={`preloader-window-info-developer text-4`}
-                 style={developerStyle}
-                 dangerouslySetInnerHTML={{__html: subtitle}}>
+                <div className={`preloader-window-info-text`}>
+                    <h5 className={`h1 mb-0`}
+                        dangerouslySetInnerHTML={{__html: title}}/>
+                    <div className={`h3`}
+                         dangerouslySetInnerHTML={{__html: subtitle}}/>
+                </div>
             </div>
         </div>
     )

@@ -6,7 +6,7 @@ function Logo({ className = "", style = {}, size, setDidLoad }) {
     const utils = useUtils()
 
     className = className || ``
-    size = utils.number.forceIntoBounds(size, 0, 3, 3)
+    size = utils.number.forceIntoBounds(size, 0, 4, 4)
 
     const sizeClass = `logo-wrapper-size-${size}`
 

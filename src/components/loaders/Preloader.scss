@@ -13,7 +13,7 @@ div.preloader-window {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 40px;
 }
 
 div.preloader-window-hidden {
@@ -32,14 +32,23 @@ div.preloader-window-content {
 }
 
 div.preloader-window-info {
-    margin-top: 12px;
-    transition: 0.3s opacity ease-out, 0.3s transform ease-out;
+    margin-top: 24px;
+    transition: 0.3s opacity ease-out;
 }
 
 div.preloader-window-info-hidden {
     opacity: 0;
-    transform: translateY(30px);
     transition: none;
+}
+
+@keyframes preloader-logo-pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.12); }
+    100% { transform: scale(1); }
+}
+
+div.preloader-window-logo-pulse {
+    animation: preloader-logo-pulse 1.2s ease-in-out infinite;
 }
 
 div.preloader-window-info-title {
@@ -48,7 +57,9 @@ div.preloader-window-info-title {
     justify-content: center;
 }
 
-div.preloader-window-info-developer {
-    opacity: 0.5;
-    text-align: center;
+div.preloader-window-info-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
 }
