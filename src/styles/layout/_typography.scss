@@ -4,37 +4,37 @@
 
 /** Headings **/
 $heading-sizes: (
-    h1: (default: 2.75rem, xl: 2.61rem, lg: 2.48rem, md: 2.34rem, sm: 1.95rem),
-    h2: (default: 2.50rem, xl: 2.38rem, lg: 2.25rem, md: 2.13rem, sm: 1.90rem),
-    h3: (default: 2.00rem, xl: 1.90rem, lg: 1.80rem, md: 1.70rem, sm: 1.55rem),
-    h4: (default: 1.50rem, xl: 1.43rem, lg: 1.35rem, md: 1.28rem, sm: 1.15rem),
-    h5: (default: 1.30rem, xl: 1.24rem, lg: 1.17rem, md: 1.10rem, sm: 0.95rem),
-    h6: (default: 1.10rem, xl: 1.05rem, lg: 0.99rem, md: 0.94rem, sm: 0.85rem),
+    h1: (default: 3.03rem, xl: 2.87rem, lg: 2.73rem, md: 2.57rem, sm: 2.15rem),
+    h2: (default: 2.75rem, xl: 2.62rem, lg: 2.48rem, md: 2.34rem, sm: 2.09rem),
+    h3: (default: 2.20rem, xl: 2.09rem, lg: 1.98rem, md: 1.87rem, sm: 1.71rem),
+    h4: (default: 1.65rem, xl: 1.57rem, lg: 1.49rem, md: 1.41rem, sm: 1.27rem),
+    h5: (default: 1.43rem, xl: 1.36rem, lg: 1.29rem, md: 1.21rem, sm: 1.05rem),
+    h6: (default: 1.21rem, xl: 1.16rem, lg: 1.09rem, md: 1.03rem, sm: 0.94rem),
 );
 
 /** Standard Texts **/
 $text-sizes: (
-    text-1: (default: 0.85rem, xl: 0.81rem, lg: 0.77rem, md: 0.72rem, sm: 0.70rem),
-    text-2: (default: 0.90rem, xl: 0.86rem, lg: 0.81rem, md: 0.77rem, sm: 0.75rem),
-    text-3: (default: 0.95rem, xl: 0.90rem, lg: 0.86rem, md: 0.81rem, sm: 0.80rem),
-    text-4: (default: 1.00rem, xl: 0.95rem, lg: 0.90rem, md: 0.85rem, sm: 0.85rem),
-    text-5: (default: 1.05rem, xl: 1.00rem, lg: 0.95rem, md: 0.89rem, sm: 0.90rem),
+    text-1: (default: 0.94rem, xl: 0.89rem, lg: 0.85rem, md: 0.79rem, sm: 0.77rem),
+    text-2: (default: 0.99rem, xl: 0.95rem, lg: 0.89rem, md: 0.85rem, sm: 0.83rem),
+    text-3: (default: 1.05rem, xl: 0.99rem, lg: 0.95rem, md: 0.89rem, sm: 0.88rem),
+    text-4: (default: 1.10rem, xl: 1.05rem, lg: 0.99rem, md: 0.94rem, sm: 0.94rem),
+    text-5: (default: 1.16rem, xl: 1.10rem, lg: 1.05rem, md: 0.98rem, sm: 0.99rem),
 );
 
 /** Leads **/
 $lead-sizes: (
-    display-1: (default: 3.25rem, xl: 3.09rem, lg: 2.93rem, md: 2.76rem, sm: 2.50rem),
-    display-2: (default: 3.50rem, xl: 3.33rem, lg: 3.15rem, md: 2.98rem, sm: 2.70rem),
-    display-3: (default: 3.75rem, xl: 3.56rem, lg: 3.38rem, md: 3.19rem, sm: 2.95rem),
-    display-4: (default: 4.00rem, xl: 3.80rem, lg: 3.60rem, md: 3.40rem, sm: 3.15rem),
-    display-5: (default: 5.00rem, xl: 4.75rem, lg: 4.50rem, md: 4.25rem, sm: 3.85rem),
-    display-6: (default: 6.5rem, xl: 6.25rem, lg: 6rem, md: 5.75rem, sm: 5.25rem),
-    display-7: (default: 8rem, xl: 7.75rem, lg: 7.5rem, md: 7.25rem, sm: 6.75rem),
+    display-1: (default: 3.58rem, xl: 3.40rem, lg: 3.22rem, md: 3.04rem, sm: 2.75rem),
+    display-2: (default: 3.85rem, xl: 3.66rem, lg: 3.47rem, md: 3.28rem, sm: 2.97rem),
+    display-3: (default: 4.13rem, xl: 3.92rem, lg: 3.72rem, md: 3.51rem, sm: 3.25rem),
+    display-4: (default: 4.40rem, xl: 4.18rem, lg: 3.96rem, md: 3.74rem, sm: 3.47rem),
+    display-5: (default: 5.50rem, xl: 5.23rem, lg: 4.95rem, md: 4.68rem, sm: 4.24rem),
+    display-6: (default: 7.15rem, xl: 6.88rem, lg: 6.60rem, md: 6.33rem, sm: 5.78rem),
+    display-7: (default: 8.80rem, xl: 8.53rem, lg: 8.25rem, md: 7.98rem, sm: 7.43rem),
 
-    lead:   (default: 1.20rem, xl: 1.14rem, lg: 1.08rem, md: 1.02rem, sm: 0.90rem),
-    lead-2: (default: 1.40rem, xl: 1.33rem, lg: 1.26rem, md: 1.19rem, sm: 1.10rem),
-    lead-3: (default: 1.75rem, xl: 1.66rem, lg: 1.58rem, md: 1.49rem, sm: 1.35rem),
-    lead-4: (default: 2.25rem, xl: 2.14rem, lg: 2.03rem, md: 1.91rem, sm: 1.85rem),
+    lead:   (default: 1.32rem, xl: 1.25rem, lg: 1.19rem, md: 1.12rem, sm: 0.99rem),
+    lead-2: (default: 1.54rem, xl: 1.46rem, lg: 1.39rem, md: 1.31rem, sm: 1.21rem),
+    lead-3: (default: 1.93rem, xl: 1.83rem, lg: 1.74rem, md: 1.64rem, sm: 1.49rem),
+    lead-4: (default: 2.48rem, xl: 2.35rem, lg: 2.23rem, md: 2.10rem, sm: 2.04rem),
 );
 
 @each $text, $size in $text-sizes {
